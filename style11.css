@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(210, 60%, 98%);
+    margin: 50px 0;
+}
+main{
+    background-color: white;
+    padding: 25px;
+    max-width: 720px;
+    border-radius: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+nav .notfy{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+nav .num{
+    background-color: hsl(219, 85%, 26%);
+    color: white;
+    padding: 3px 10px 4px 10px;
+    border-radius: 10px;
+}
+nav .allread button{
+    color: hsl(219, 14%, 63%);
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+}
+nav .allread button:hover{
+    color: hsl(219, 85%, 26%);
+}
+section .mark{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: hsl(211, 68%, 94%);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+section .mark img{
+    width: 50px;
+}
+.markdes p{
+    color: hsl(219, 14%, 63%);
+    font-weight: 500;
+}
+.des{
+    margin-bottom: 5px;
+}
+.small{
+    font-weight: 800;
+    color: hsl(219, 12%, 42%);
+    margin-left: 5px;
+    cursor: pointer;
+}
+.small:hover{
+    color: hsl(219, 85%, 26%);
+}
+.unread p:first-of-type::after{
+    background-color: hsl(1, 90%, 64%);
+    border-radius: 50%;
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.big{
+    font-weight: 800;
+    color: black;
+    margin-right: 5px;
+}
+section .angela{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: hsl(211, 68%, 94%);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+section .angela img{
+    width: 50px;
+}
+.angelades p{
+    color: hsl(219, 14%, 63%);
+    font-weight: 500;
+}
+section .jacob{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: hsl(211, 68%, 94%);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+section .jacob img{
+    width: 50px;
+}
+.jacobdes p{
+    color: hsl(219, 14%, 63%);
+    font-weight: 500;
+}
+section .Rizky{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+section .Rizky img{
+    width: 50px;
+}
+.Rizkydes .des{
+    color: hsl(219, 14%, 63%);
+    font-weight: 500;
+}
+.secret{
+    border: 1px solid hsl(219, 14%, 63%);
+    padding: 15px 20px;
+    margin-top: 15px;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.secret:hover{
+    background-color: hsl(211, 68%, 94%);
+    border: none;
+}
+section .kimberly{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+section .kimberly .all{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+section .kimberly img{
+    width: 50px;
+    cursor: pointer;
+}
+section .nathan{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+section .nathan img{
+    width: 50px;
+}
+.nathandes p{
+    color: hsl(219, 14%, 63%);
+    font-weight: 500;
+}
+section .anna{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+section .anna img{
+    width: 50px;
+}
+.annades p{
+    color: hsl(219, 14%, 63%);
+    font-weight: 500;
+}
+.hidden{
+    display: none;
+}
